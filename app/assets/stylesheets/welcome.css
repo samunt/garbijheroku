@@ -1,0 +1,309 @@
+.welcome-header {
+  /*background-image: url("city-background.jpg");*/
+  /*background-size: cover;*/
+  font-family: "Avenir", Arial, sans-serif;
+  font-weight: normal;
+  /*height: 600px;*/
+  text-align: center;
+  /*position: fixed;*/
+  top: 0;
+  z-index: 0;
+}
+
+
+
+.home-title-button {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 99;
+  width: 800px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 1000px) {
+  .welcome-header {
+    height:500px;
+  }
+}
+
+.welcome-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: white;
+  padding-top: 190px;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.welcome-subtitle {
+  font-family: "Avenir next", Arial, sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+
+.btn-front {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: "Avenir next", Arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 14px;
+  background: #118B5F;
+  padding: 9px 32px 9px 32px;
+  text-decoration: none;
+  text-align: center;
+  border-style: none;
+}
+
+.btn-front:hover {
+  background: #72a593;
+  color: #118B5F;
+  text-decoration: none;
+  transition: 0.5s ease;
+
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  /*padding-top: 10px;*/
+}
+
+.divider {
+  background-color: #EDEDED;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.divider-bottom {
+  background-color: #EDEDED;
+  width: 100%;
+  height: 30px;
+  margin-top: 70px
+}
+
+.intro-container {
+  width: 100%;
+  height: 293px;
+  /*text-align: center;*/
+  margin-top: 50px;
+  margin-bottom: 80px;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 0px;
+  padding-top: 5px;
+}
+
+.intro-left {
+  text-align: center;
+  width: 50%;
+  float: left;
+  padding-left: 180px;
+}
+
+.intro-right {
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #F7F7F7, white);
+  width: 50%;
+  float: right;
+  padding-left: 60px;
+  /*position: relative;
+  top: 50%;
+  transform: translateY(-50%);*/
+}
+
+.garbage-bag {
+   /*margin: auto;
+   display: block;
+   padding-top: 25px;
+   margin-top: 30px;*/
+}
+.intro-line {
+  font-family: "Avenir next", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  width: 80%;
+
+  /*border: 2px #0C6847 solid*/
+}
+
+.intro-title {
+  color: #129868;
+  font-family: "Avenir next", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  width: 70%;
+}
+
+.intro-info {
+  color: #939393;
+  font-family: "Avenir next", Arial, sans-serif;
+  font-weight: normal;
+  width: 80%;
+  font-size: 16px;
+
+}
+
+.when-you-buy {
+  font-family: "Avenir", Arial, sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  background-color: #0F7651;
+  width: 500px;
+  height: 500px;
+  float: left;
+  /*border-style: inset;
+  border-width: 8px;*/
+  /*border-color: #9CB9AE;*/
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+}
+
+
+.when-you-buy-list {
+  padding: 0;
+  list-style-type: none;
+  margin: auto;
+  width: 330px;
+  text-align: center;
+}
+
+.trash-bin-full {
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+.when-you-sell {
+  font-family: "Avenir", Arial, sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  background-color: #0F7651;
+  width: 500px;
+  height: 500px;
+  float: right;
+  /*border-style: outset;
+  border-width: 8px;
+  border-color: #9CB9AE;*/
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+}
+
+.when-you-sell-list {
+  padding: 0;
+  list-style-type: none;
+  margin: auto;
+  width: 330px;
+  text-align: center;
+  /*box-shadow: 10px 10px 5px #888888;*/
+
+}
+
+.sell-container, .buy-container {
+  width: 49.5%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+
+.money-bag {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.when-you-title {
+  margin-top: 40px;
+  font-style: lighter;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  /*position: relative;*/
+
+}
+
+.downward-arrow {
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+  width: 60px;
+  margin-top: 74px;
+}
+
+.intro-form {
+  background: linear-gradient(to bottom right, #03261A, #1E8963);
+  /*margin-top: 100px;*/
+  height: 1050px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.signup-container {
+  width: 50%;
+  float: left;
+}
+
+.login-container {
+  width: 50%;
+  float: right;
+}
+
+#newuser {
+  float: right;
+  /*display: inline-block;*/
+  margin-right: 15px;
+}
+
+.newuser {
+  padding-bottom: 50px;
+}
+
+#login {
+  float: left;
+  /*display: inline-block;*/
+  margin-left: 15px;
+}
+
+.loginform {
+  padding-bottom: 50px;
+}
+/*
+.parallax-window {
+  background: transparent;
+  min-height: 400px;
+  background-color: #0C6847;
+}*/
+
+video#video {
+  width: 100%;
+  /*position: fixed;*/
+  /*top: 0;*/
+  z-index: -1;
+}

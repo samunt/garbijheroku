@@ -1,0 +1,98 @@
+
+<header class="welcome-header">
+  <div class="home-vid">
+    <div id="video">
+      <video preload="preload" id="video" autoplay="autoplay" loop="loop">
+        <source src="<%= asset_path "Toronto2.mp4" %>" type="video/mp4"></source>
+      </video>
+    </div>
+  </div>
+  <div class="home-title-button">
+    <h1 class="welcome-title animated fadeInDown">THE SHARED ECONOMY OF TRASH</h1>
+    <h4 class="welcome-subtitle animated fadeInUp">Save time. Save money. Save yourself the hassle.</h4>
+    <a style="text-align:center;" href="#newuser" class="btn-front animated fadeIn">GET STARTED!</a>
+    <a class="downward-scroll"><%= image_tag 'downward-arrow.png', class:"downward-arrow" %></a>
+  </div>
+</header>
+
+<div class="welcome-content">
+<div class="divider"></div>
+
+  <div class="intro-container">
+    <div class="intro-left animated fadeIn">
+      <%= image_tag 'Group.svg', :width => 340, :height => 322, class:"garbage-bag" %>
+    </div>
+
+    <div class="intro-right animated fadeIn">
+      <div class="intro-line">
+        <h5 class="intro-title"> We have saved our customers <strong id="moneySaved">$83,237</strong> since launch!<h5> </br>
+        <p class="intro-info"> It is the responsibility of the residential property owner to ensure that the residence has sufficient containers to meet the garbage disposal needs.
+        However, for occasional excess material that does not fit in the bin, residential garbage bag tags are required. Residential tags cost $3.39 each.
+        Through our app; customers have avoided the bag tag fees and saved money, time, and hassle.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="sell-container">
+      <div class="when-you-sell animated">
+          <h2 class="when-you-title">when do I sell?</h2>
+          <%= image_tag 'money-bag-large.png',:width => 100, :height => 95, class:"money-bag", href:"money-bag"%>
+        <ul class="when-you-sell-list">
+          <li>
+            Extra space in your garbage bin this week?
+          </li>
+          <br />
+          <li>
+            If you have additional space for garbage in your bin, everyone benefits!
+            By allowing your neighbours to unload their past-the-limit garbage in your
+            bin, you get paid! The less garbage you produce, the more money you can earn!
+          </li>
+        </ul>
+      </div>
+    </div>
+
+     <div class="buy-container">
+      <div class="when-you-buy animated">
+        <h2 class="when-you-title">when do I buy?</h2>
+        <%= image_tag 'garbage-bin.png',:width => 100, :height => 95, class:"trash-bin-full", href:"trash-bin-full"%>
+        <ul class="when-you-buy-list">
+          <li>
+            Too much garbage this week?
+          </li>
+          <br />
+          <li>
+            When you purchase 'garbage space' through Garbij, everyone wins!
+            Don't bother purchasing garbage tags from the city for inflated rates.
+            Instead, find a neighbour with extra space. Pay your neighbour a fraction
+            of what you would have otherwise spent. Save the gas by not driving to
+            buy tags, and save yourself a hassle!
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- containter -->
+
+  <div class="divider-bottom"> </div>
+  <div class="intro-form">
+    <div class="intro-form-container">
+      <div class="signup-container animated">
+        <div id="newuser">
+          <%= render 'users/form' %>
+        </div>
+      </div>
+      <div class="login-container animated">
+        <div id="login">
+          <%= render 'sessions/form' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="test-geo">
+<input id="searchTextField" type="text" placeholder="Type in an address" />
+<!-- <input id="searchTextField" type="text" size="50"> -->
+</div>
